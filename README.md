@@ -1,2 +1,2 @@
-# travelbug
+# Travelbag
 ## Travel Site
