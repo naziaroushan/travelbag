@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<head profile="http://localhost:8888/">
+<link rel="icon"
+      type="image/png"
+      href="image/logo1.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,8 +15,15 @@
 
 <body>
   <header class="header">
+
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">Travelbag</a>
+      <div class="logo">
+        <a href="/">
+          <!-- Takes you to home page -->
+          <img src="img/logo1.png" width="50" height="50" alt="Travelbag Logo">
+        </a>
+      </div>
+      <a class="navbar-brand" href="#"></a> <!-- NOTE: Replaced text with logo -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -25,17 +35,17 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Map</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">What's Next</a>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About Me</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Dropdown link
+              What's in my bag?
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
+              <a class="dropdown-item" href="#">Day trip</a>
+              <a class="dropdown-item" href="#">Two weeks</a>
+              <a class="dropdown-item" href="#">Four months or more</a>
             </div>
           </li>
         </ul>
@@ -51,32 +61,34 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img src="img/mushishi.jpg" class="card-img-top" alt="placeholder">
+          <div class="card" style="width: 20rem;">
+            <img src="img/cappadocia.jpg" class="card-img-top" alt="Cappadocia">
             <div class="card-body">
               <h5 class="card-title">Turkey</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">Turkey is a large peninsula that bridges the continents of Europe and Asia. Once the centre of the Ottoman Empire, the modern secular republic was established in the 1920s by nationalist leader Kemal Ataturk.</p>
+              <a href="#" class="btn btn-primary">See my travel plan</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img src="https://picsum.photos/200" class="card-img-top" alt="placeholder">
+          <div class="card" style="width: 20rem;">
+            <img src="img/greece.jpg" class="card-img-top" alt="Greece">
             <div class="card-body">
               <h5 class="card-title">Greece</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">Situated in the far south of the Balkan peninsula, Greece combines the towering mountains of the mainland with over 1,400 islands, the largest of which is Crete. Greece has the longest coastline in Europe and is the
+                southernmost country in Europe.</p>
+              <a href="#" class="btn btn-primary">See my travel plan</a>
             </div>
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
-            <img src="https://picsum.photos/200" class="card-img-top" alt="placeholder">
+          <div class="card" style="width: 20rem;">
+            <img src="img/japan.jpg" class="card-img-top" alt="Japan">
             <div class="card-body">
               <h5 class="card-title">Japan</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">Japan is an archipelago in East Asia. It is located at the western end of the Pacific Ocean, east of the Sea of Japan, and is adjacent to the People’s Republic of China, Korea and Russia. Because Japan consists of
+                6,852 islands is called an archipelago Island.</p>
+              <a href="#" class="btn btn-primary">See my travel plan</a>
             </div>
           </div>
         </div>

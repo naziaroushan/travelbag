@@ -1,4 +1,30 @@
 .header .navbar {
   background-color: black;
+}
 
+.navbar-light .navbar-brand {
+    color: #d39e00;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #d39e00;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #d39e00;
+}
+
+/* NOTE: img {
+    width:inherit;
+} */
+
+.btn-primary {
+    color: #1d2124;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.header .nav ul li {
+/* margin: 0 3em; */
+margin-right: 3em;
 }
