@@ -67,10 +67,11 @@ h2 .letter-e {
 /* NOTE: jumbotron */
 .hero {
   background-color: transparent;
-  background-image: url(https://drive.google.com/file/d/1-FasCkhiyBy2vOeaZWrbmp2xkVQ5MPQi/view?usp=sharing)
+  background-image: url("hero.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
+  z-index: 0;
 }
 
 /* NOTE: Styles for #travels */
