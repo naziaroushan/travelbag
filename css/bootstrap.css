@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+
 .header .navbar {
   background-color: black;
 }
@@ -17,6 +19,10 @@
 /* NOTE: img {
     width:inherit;
 } */
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
 
 .btn-primary {
     color: #1d2124;
