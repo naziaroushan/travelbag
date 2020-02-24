@@ -39,6 +39,16 @@
   margin-right: 3em;
 }
 
+.h1 {
+  text-align: center;
+}
+
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
 /* DEBUG: Header Heading 1 effect */
 h1 .letter-e {
   display: inline-block;
@@ -52,13 +62,12 @@ h2 .letter-e {
   display: inline-block;
   letter-spacing: 3px;
   transform: rotate(-20deg);
-  padding: 10rem;
 }
 
 /* NOTE: jumbotron */
 .hero {
   background-color: transparent;
-  background-image: url(https://sewing-machine-reviews.net/contentimg/all-the-birds-in-the-sky-epub-vk.jpg);
+  background-image: url(https://drive.google.com/file/d/1-FasCkhiyBy2vOeaZWrbmp2xkVQ5MPQi/view?usp=sharing)
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -91,7 +100,7 @@ h2 .letter-e {
   z-index: 0;
 }
 
-.hero h1 {
+/* .hero h1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -100,4 +109,4 @@ h2 .letter-e {
 
 .h1, h1 {
   font-size: 10rem;
-}
+} */
