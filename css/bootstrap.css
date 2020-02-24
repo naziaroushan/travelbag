@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+/* Font import didn't work */
 
 .header .navbar {
   background-color: black;
@@ -22,6 +23,25 @@
 
 *, ::after, ::before {
     box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  /* height: 100vh; */
+  min-height: 320px;
+  max-height: 400px;
+  z-index: 0;
+}
+
+.hero h1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+}
+
+.h1, h1 {
+    font-size: 10rem;
 }
 
 .btn-primary {
