@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="shortcut icon" href="img/logo1.png">
+  <link rel="shortcut icon" href="../img/logo1.png">
   <title>Travelbag</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/style.css">
@@ -18,7 +18,7 @@
     <div class="logo">
       <a href="/">
         <!-- NOTE: Takes you to home page -->
-        <img src="img/logo1.png" width="50" height="50" alt="Travelbag logo">
+        <img src="../img/logo1.png" width="50" height="50" alt="Travelbag logo">
       </a>
     </div>
     <a class="navbar-brand" href="#"></a> <!-- NOTE: Replaced text with logo -->
@@ -31,13 +31,13 @@
           <a class="nav-link" href="#">Travelbag <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="assets/map" target="_blank">Map </a>
+          <a class="nav-link" href="/map" target="_blank">Map </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="assets/aboutme" target="_blank">About me </a>
+          <a class="nav-link" href="/aboutme" target="_blank">About me </a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="assets/whatsinmybag" target="_blank" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="/whatsinmybag" target="_blank" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             What's in my bag?
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -50,11 +50,13 @@
     </div>
   </nav>
 </header>
+<main class="main map">
+  <p>
+    This is a wall of text about the map.
+  </p>
 
-<p>
-  This is a wall of text about the map.
-</p>
+  <img class="w-100" src="../img/map.jpg" alt="A world map showing where I have traveled so far">
+</main>
 
-<img src="img/map.jpg" alt="A world map showing where I have traveled so far">
 
 </body>
