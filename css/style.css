@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 /* Font import didn't work */
-
+body {
+  padding-top: 5em;
+}
 .header .navbar {
   background-color: black;
 }
