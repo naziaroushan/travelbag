@@ -132,6 +132,12 @@ h2 .letter-e {
   /* z-index: 0; */
 }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d39e00;
+    border-color: #d39e00;
+}
+
 .footer {
   padding-left: 15px;
 }
