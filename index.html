@@ -9,7 +9,6 @@
   <title>Travelbag</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/style.css">
-  <style media="screen" type="text/css"></style>
 </head>
 
 <body>
@@ -54,31 +53,34 @@
   </header>
 
   <!-- Main -->
-  <main class="main-content">
-    <!-- Site content layout -->
-    <div class="hero" style="background-image: url(https://sewing-machine-reviews.net/contentimg/all-the-birds-in-the-sky-epub-vk.jpg);
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    background-position: center;
-                    text-align: center;
-                    padding: 20px 20px;">
-      <h1 style="padding:20px;">Stories of my travels</h1>
-      <span class="letter-e" style="
-                    transform: rotate(-20deg);
-                    display: inline-block;">e</span>
-      </font>
+  <main class="main container-fluid">
+    <!-- NOTE: Using jumbotron
+    https://getbootstrap.com/docs/4.4/components/jumbotron/ -->
+
+    <div class="hero jumbotron">
+      <h1 class="display-4">Stories of my <br>trav<span class="letter-e">e</span>ls</h1>
+
+      <h2>Where n<span class="letter-e">e</span>xt?</h2>
+      <p class="lead">It was a cold month in 2017 and I was visiting family in New York. I was tired after traveling for almost a year and a half. Although I had bought tickets and got a visa to go to Turkey, I decided to stay and rest here. I have
+        regretted that decision ever since I left Europe, and so it's at the top of my list.</p>
     </div>
 
-    <div class="container-fluid">
-      <h2 style="padding:10px;">Where next?</h2>
-      <p style="color:grey; padding:10px;">It was a cold month in 2017 and I was visiting family in New York. I was tired after traveling for almost a year and a half. Although I had bought tickets and got a visa to go to Turkey, I decided to stay
-        and rest here. I have regretted that decision ever since I left Europe, and so it's at the top of my list.</p>
+    <!-- Cards -->
 
-      <!-- Cards -->
+    <!-- NOTE:
+          - Add id attribute with value equal to travels
+          - Remove inline CSS style="width: 20rem;"
+          - Add responsive columns width divs
+          https://getbootstrap.com/docs/4.4/layout/grid/
+        -->
+    <div id="travels" class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
-            <img src="img/cappadocia.jpg" class="card-img-top" alt="Cappadocia">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+          <!-- NOTE: Use a div to mask the image overflow -->
+            <div class="image-overflow">
+              <img src="img/cappadocia.jpg" class="card-img-top" alt="Cappadocia">
+            </div>
             <div class="card-body">
               <h5 class="card-title">Turkey</h5>
               <p class="card-text">Turkey is a large peninsula that bridges the continents of Europe and Asia. Once the centre of the Ottoman Empire, the modern secular republic was established in the 1920s by nationalist leader Kemal Ataturk.</p>
@@ -86,33 +88,34 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+            <!-- NOTE: Or edit each image to have the same height and width -->
             <img src="img/greece.jpg" class="card-img-top" alt="Greece">
             <div class="card-body">
               <h5 class="card-title">Greece</h5>
-              <p class="card-text">Situated in the far south of the Balkan peninsula, Greece combines the towering mountains of the mainland with over 1,400 islands, the largest of which is Crete. Greece has the longest coastline in Europe and is the
-                southernmost country in Europe.</p>
+              <p class="card-text">Situated in the far south of the Balkan peninsula, Greece combines the towering mountains of the mainland with over 1,400 islands, the largest of which is Crete. Greece has the longest coastline in Europe and is the southernmost country in Europe.</p>
               <a href="#" class="btn btn-primary">See my travel plan</a>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card" style="width: 20rem;">
+        <div class="col-md-6 col-lg-4">
+          <div class="card">
+                        <!-- NOTE: Or edit each image to have the same height and width -->
             <img src="img/japan.jpg" class="card-img-top" alt="Japan">
             <div class="card-body">
               <h5 class="card-title">Japan</h5>
-              <p class="card-text">Japan is an archipelago in East Asia. It is located at the western end of the Pacific Ocean, east of the Sea of Japan, and is adjacent to the People’s Republic of China, Korea and Russia. Because Japan consists of
-                6,852 islands is called an archipelago Island.</p>
+              <p class="card-text">Japan is an archipelago in East Asia. It is located at the western end of the Pacific Ocean, east of the Sea of Japan, and is adjacent to the People’s Republic of China, Korea and Russia. Because Japan consists of 6,852 islands is called an archipelago Island.</p>
               <a href="#" class="btn btn-primary">See my travel plan</a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
   </main>
 
-  <footer>
+  <footer class="container-fluid">
     <font size="2em">
       <div class="footer">
         <p>

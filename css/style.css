@@ -6,15 +6,15 @@
 }
 
 .navbar-light .navbar-brand {
-    color: #d39e00;
+  color: #d39e00;
 }
 
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #d39e00;
+  color: #d39e00;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #d39e00;
+  color: #d39e00;
 }
 
 /* NOTE: CSS Filters
@@ -25,8 +25,63 @@
 }
 
 *, ::after, ::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
+
+.btn-primary {
+  color: #1d2124;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+
+.header .nav ul li {
+  /* margin: 0 3em; */
+  margin-right: 3em;
+}
+
+/* DEBUG: Header Heading 1 effect */
+h1 .letter-e {
+  display: inline-block;
+  font-size: 1em;
+  /* font-weight: 400; */
+  letter-spacing: 3px;
+  transform: rotate(-20deg);
+}
+
+h2 .letter-e {
+  display: inline-block;
+  letter-spacing: 3px;
+  transform: rotate(-20deg);
+  padding: 10rem;
+}
+
+/* NOTE: jumbotron */
+.hero {
+  background-color: transparent;
+  background-image: url(https://sewing-machine-reviews.net/contentimg/all-the-birds-in-the-sky-epub-vk.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+/* NOTE: Styles for #travels */
+#travels .card {
+  border: 0;
+  margin-bottom: 1em;
+}
+
+/* NOTE:
+      Method 1: Place a div around the card image with a fixed height and use overflow to mask the image height over 150px
+      Method 2: Edit the images to have the same height and width. Use https://www.photopea.com/ or photo editor software to edit the image's dimensions
+    */
+#travels .image-overflow {
+  height: 150px;
+  overflow: hidden;
+}
+
+#travels .card-body {
+      padding-left: 0;
+    }
 
 .hero {
   position: relative;
@@ -36,7 +91,7 @@
   z-index: 0;
 }
 
-.hero h1{
+.hero h1 {
   position: absolute;
   top: 0;
   left: 0;
@@ -44,16 +99,5 @@
 }
 
 .h1, h1 {
-    font-size: 10rem;
-}
-
-.btn-primary {
-    color: #1d2124;
-    background-color: #ffc107;
-    border-color: #ffc107;
-}
-
-.header .nav ul li {
-/* margin: 0 3em; */
-margin-right: 3em;
+  font-size: 10rem;
 }
