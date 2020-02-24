@@ -74,12 +74,14 @@ h1 .letter-e {
   /* font-weight: 400; */
   letter-spacing: 3px;
   transform: rotate(-20deg);
+  color: #3c5c21;
 }
 
 h2 .letter-e {
   display: inline-block;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   transform: rotate(-20deg);
+  color: #487d1b;
 }
 
 /* NOTE: jumbotron */
@@ -93,7 +95,8 @@ h2 .letter-e {
   z-index: 0;
   margin-right: -15px;
   margin-left: -15px;
-  margin-top: 16px;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
 
 /* NOTE: Styles for #travels */
