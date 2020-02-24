@@ -49,6 +49,10 @@
     line-height: 1.2;
 }
 
+.lead {
+  font-weight: 500;
+}
+
 /* DEBUG: Header Heading 1 effect */
 h1 .letter-e {
   display: inline-block;
@@ -73,6 +77,8 @@ h2 .letter-e {
   background-repeat: no-repeat;
   text-align: center;
   z-index: 0;
+  margin-left: 0px;
+  margin-top: 16px;
 }
 
 /* NOTE: Styles for #travels */
