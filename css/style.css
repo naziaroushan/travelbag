@@ -17,9 +17,12 @@
     color: #d39e00;
 }
 
-/* NOTE: img {
-    width:inherit;
-} */
+/* NOTE: CSS Filters
+  https://css-tricks.com/almanac/properties/f/filter/
+ */
+.navbar-light .navbar-toggler-icon {
+  filter: invert(100%);
+}
 
 *, ::after, ::before {
     box-sizing: border-box;
