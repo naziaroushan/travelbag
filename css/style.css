@@ -140,6 +140,12 @@ h2 .letter-e {
 
 .footer {
   padding-left: 15px;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+  /* width: 100%;
+  border:1px red solid; */
+  justify-content: space-between;
 }
 
 /* .hero h1 {
